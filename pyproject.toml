@@ -1,10 +1,11 @@
 [tool.poetry]
-name = "pycounts"
+name = "pycounts-aman"
 version = "0.1.0"
 description = "Calculate word counts in a text file!"
 authors = ["Aman Binepal"]
 license = "MIT"
 readme = "README.md"
+packages = [{include = "pycounts", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.12"
